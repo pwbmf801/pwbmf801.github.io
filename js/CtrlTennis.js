@@ -12,6 +12,8 @@ import {
   } from "./seguridad.js";
   
   /** @type {HTMLUListElement} */
+  const lista = document.
+    querySelector("#lista");
   const daoTenni =
     getFirestore().
       collection("Tenni");
