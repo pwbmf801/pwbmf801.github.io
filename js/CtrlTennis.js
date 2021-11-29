@@ -41,7 +41,7 @@ import {
    * @param {import(
       "../lib/tiposFire.js").
       DocumentSnapshot} doc */
-  function htmlFila(doc) {
+  function htmlLista(doc) {
     /**
      * @type {import("./tipos.js").
                     Tenni} */
