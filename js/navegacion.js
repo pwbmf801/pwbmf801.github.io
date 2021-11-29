@@ -8,3 +8,9 @@ export function
   muestraUsuarios() {
   location.href = "usuarios.html";
 }
+
+export function
+  muestraTennis() {
+  location.href =
+    "tennis.html";
+}

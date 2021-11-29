@@ -9,6 +9,11 @@
  */
 
 /**
+ * @typedef {Object} Tenni
+ * @property {string} nombre
+ */
+
+/**
  * @typedef {Object} Usuario
  * @property {string[]} rolIds
  * @property {string} alumnoId

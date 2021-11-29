@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,
+       initial-scale=1.0">
+  <title>
+    Tenni Nuevo de Nike
+  </title>
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script
+    src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="js/init.js">
+  </script>
+  <script type="module"
+    src="cmp/mi-nav.js">
+    </script>
+  <script type="module"
+    src="cmp/mi-footer.js">
+    </script>
+  <link rel="stylesheet"
+    href="css/estilos.css">
+</head>
+<body>
+  <form name="forma">
+    <mi-nav></mi-nav>
+    <header>
+      <h1>Tenni Nuevo de Nike</h1>
+      <div class="herramientas">
+        <a
+          href="tennis.html">
+          Cancelar</a>
+        <button type="submit">
+          Guardar
+        </button>
+      </div>
+    </header>
+    <p>
+      <label>
+        Código
+        <input name="codigo"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Nombre
+        <input name="nombre"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Linea
+        <input name="linea"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Color
+        <input name="color"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+        <label>
+          Descripción
+          <input name="descripcion"
+            type="text" required>
+        </label>
+    </p>
+    <p>
+        <label>
+          Precio
+          <input name="precio"
+            type="text" required>
+        </label>
+    </p>
+    <p>
+      <label>
+        Fecha
+        <input name="fecha"
+          type="date" required>
+      </label>
+    </p>
+    <mi-footer></mi-footer>
+  </form>
+  <script type="module"
+    src="js/CtrlTenniNuevo.js">
+    </script>
+</body>
+</html>
+
