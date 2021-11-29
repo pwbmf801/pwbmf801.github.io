@@ -38,10 +38,29 @@ import {
   }
   
   /**
+ * @param {import(
+    "../lib/tiposFire.js").
+    QuerySnapshot} snap */
+function htmlLista(snap) {
+    let html = "";
+    if (snap.size > 0) {
+      snap.forEach(doc =>
+        html += htmlFila(doc));
+    } else {
+      html += /* html */
+        `<li class="vacio">
+          -- No hay Tennis
+          registrados. --
+        </li>`;
+    }
+    lista.innerHTML = html;
+  }
+
+  /**
    * @param {import(
       "../lib/tiposFire.js").
       DocumentSnapshot} doc */
-  function htmlLista(doc) {
+  function htmlFila(doc) {
     /**
      * @type {import("./tipos.js").
                     Tenni} */
