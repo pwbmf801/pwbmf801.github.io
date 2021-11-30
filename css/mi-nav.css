@@ -2,6 +2,7 @@ mi-nav {
   display: block;
   background-color:
     var(--colorMiNav);
+  font-family: 'calibri';
 }
 
 mi-nav ul {
@@ -16,4 +17,15 @@ mi-nav ul {
 
 mi-nav ul li {
   margin: 0.5rem;
+}
+
+header {
+  background-color: #EDE5E5;
+}
+
+img{
+  width: 120px;
+  height: 50px;
+  float: left;
+  padding: 8px;
 }
