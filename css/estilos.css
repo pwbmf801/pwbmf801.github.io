@@ -21,6 +21,7 @@ header {
   top: 0;
   background-color:
     var(--color-header);
+  background-color: aquamarine;  
 }
 
 .herramientas {
